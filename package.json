@@ -1,0 +1,31 @@
+{
+  "name": "koffee",
+  "version": "0.0.1",
+  "description": "Extension for tracking anime progress on popular streaming websites",
+  "scripts": {
+    "build": "webpack-cli --mode production",
+    "build:dev": "webpack-cli --mode development",
+    "watch": "webpack-cli --mode development --watch",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "lint:fix": "tslint -c tslint.json 'src/**/*.ts' --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hq-af/koffee.git"
+  },
+  "author": "hq.af <hq.af@protonmail.ch>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hq-af/koffee/issues"
+  },
+  "homepage": "https://github.com/hq-af/koffee#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.5.1",
+    "ts-loader": "^4.2.0",
+    "tslint": "^5.10.0",
+    "tslint-xo": "^0.7.2",
+    "typescript": "^2.8.3",
+    "webpack": "^4.7.0",
+    "webpack-cli": "^2.1.2"
+  }
+}

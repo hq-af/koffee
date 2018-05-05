@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Koffee",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.rapidvideo.com/e/*",
+        "*://mcloud.to/embed/*",
+        "*://streamango.com/embed/*",
+        "*://openload.co/embed/*",
+        "*://kissanime.ru/Anime/*/*",
+        "*://twist.moe/a/*/*",
+        "*://*.9anime.is/watch/*/*"
+      ],
+      "js": ["script.js"],
+      "all_frames": true
+    }
+  ]
+}

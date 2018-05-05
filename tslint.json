@@ -1,0 +1,8 @@
+{
+	"extends": "tslint-xo/space",
+	"rules": {
+		"object-curly-spacing": true,
+		"comment-format": false,
+		"no-conditional-assignment": false
+	}
+}
